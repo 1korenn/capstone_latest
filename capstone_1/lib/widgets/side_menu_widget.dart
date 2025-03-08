@@ -19,6 +19,7 @@ class _SideMenuGetState extends State<SideMenuWidget> {
     final data = SideMenuData();
 
     return Container(
+      color: backgroundColor, //bg color side menu
       padding: const EdgeInsets.symmetric(horizontal:20,vertical:70),
       child: ListView.builder(
         itemCount: data.menu.length,
@@ -35,13 +36,14 @@ class _SideMenuGetState extends State<SideMenuWidget> {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(6.0)),
         
-          color: isSelected ? selectionColor: Colors.transparent,
+          color: isSelected ? const Color.fromARGB(157, 204, 219, 223): Colors.transparent,
         ),
+        
         child:InkWell(
           onTap: () => setState(() {
               selectedIndex = index;
             }),
-          hoverColor: const Color.fromARGB(255, 25, 125, 206).withAlpha(25), // Add hover color here
+          hoverColor: const Color.fromARGB(255, 94, 94, 95).withAlpha(25), // Add hover color here
         
           child:Row(
             children: [
@@ -51,13 +53,13 @@ class _SideMenuGetState extends State<SideMenuWidget> {
 
               Icon(
                 data.menu[index].icon,
-                color: isSelected ? Colors.black : Colors.grey,
+                color: isSelected ? Colors.black : const Color.fromARGB(255, 255, 255, 255),
                 ),
 
               Text(
                 data.menu[index].title,
                 style: TextStyle(
-                  color: isSelected ? Colors.black : Colors.grey,
+                  color: isSelected ? Colors.black : const Color.fromARGB(255, 255, 255, 255),
                   fontSize: 16.0,
                   fontWeight: isSelected ? FontWeight.bold : FontWeight.normal
                 ),
