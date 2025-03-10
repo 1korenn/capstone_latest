@@ -9,7 +9,7 @@ class HeaderWidget extends StatelessWidget {
 @override
 
 Widget build(BuildContext context) { 
-    return Container(
+    return SizedBox(
       width: 500,
       child: const  TextField(
         decoration: InputDecoration(
