@@ -1,4 +1,4 @@
-import 'package:capstone_1/model/SensorValue_models.dart';
+import 'package:capstone_1/model/sensorValue_models.dart';
 
 class SensorValue {
   final sensorData = [

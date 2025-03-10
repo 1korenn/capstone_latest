@@ -1,5 +1,5 @@
-import 'package:capstone_1/data/SensorValue_data.dart';
-import 'package:capstone_1/widgets/SensorV_card_widget.dart';
+import 'package:capstone_1/data/sensorValue_data.dart';
+import 'package:capstone_1/widgets/sensorV_card_widget.dart';
 import 'package:flutter/widgets.dart';
 
 class SensorValueWidget extends StatelessWidget{
