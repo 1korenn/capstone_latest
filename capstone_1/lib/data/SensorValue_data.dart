@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:capstone_1/model/sensorValue_models.dart';
 
 class SensorValue {
