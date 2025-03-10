@@ -14,7 +14,7 @@ Widget build(BuildContext context) {
       child: const  TextField(
         decoration: InputDecoration(
           filled: true,
-          fillColor: SearchBarColor,
+          fillColor: searchBarColor,
           enabledBorder:  OutlineInputBorder(
             borderSide: BorderSide(color: Colors.transparent),
             borderRadius: BorderRadius.all(Radius.circular(9.0)),

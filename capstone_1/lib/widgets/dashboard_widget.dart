@@ -1,8 +1,8 @@
 // ignore_for_file: unnecessary_const
 
-import 'package:capstone_1/widgets/Header_widget.dart';
-import 'package:capstone_1/widgets/Sensor_Value_Widget.dart';
-import 'package:capstone_1/widgets/Title_Widget.dart';
+import 'package:capstone_1/widgets/header_widget.dart';
+import 'package:capstone_1/widgets/sensor_Value_Widget.dart';
+import 'package:capstone_1/widgets/title_Widget.dart';
 // import 'package:capstone_1/widgets/Title_Widget.dart';
 import 'package:flutter/widgets.dart';
 

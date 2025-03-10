@@ -18,4 +18,4 @@ class SensorValue {
       title: 'moisture',
     ),
   ];
-}
+} 
