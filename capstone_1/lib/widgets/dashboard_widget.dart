@@ -1,6 +1,7 @@
 // ignore_for_file: unnecessary_const
 
 import 'package:capstone_1/widgets/header_widget.dart';
+import 'package:capstone_1/widgets/line_chart_card.dart';
 import 'package:capstone_1/widgets/sensor_Value_widget.dart';
 import 'package:capstone_1/widgets/title_widget.dart';
 // import 'package:capstone_1/widgets/Title_Widget.dart';
@@ -19,7 +20,11 @@ Widget build(BuildContext context) {
       const SizedBox(height: 10,),
       const HeaderWidget(),
       const SizedBox(height: 17,),
-       SensorValueWidget(),
+      SensorValueWidget(),
+      const SizedBox(height: 17,),
+      // const LineChartCard(),
+
+
       
     ],
   );
