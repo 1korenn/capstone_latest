@@ -9,7 +9,7 @@ class SensorValue {
       title: 'ph',
     ),
     SensorvalueModel(
-      icon: 'assets/icons/temperature.png',
+      icon: 'assets/icons/c.png',
       value: 'input esp data ',
       title: 'temperature',
     ),

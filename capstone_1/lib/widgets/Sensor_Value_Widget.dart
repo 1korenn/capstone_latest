@@ -20,7 +20,28 @@ Widget build(BuildContext context){
       mainAxisSpacing: 12,
     ),
     itemBuilder: (context,index) => SensorValueCard(
-      child: Container(),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [ 
+          Image.asset(sensorValue.sensorData[index].icon, height: 30, width: 30),
+          Text(
+            sensorValue.sensorData[index].value, 
+            style: const TextStyle(
+              fontSize: 15, 
+              fontWeight: FontWeight.w500,
+              color: Color.fromARGB(226, 253, 253, 253)),
+            ),
+          Text(
+            sensorValue.sensorData[index].title, 
+            style: const TextStyle(
+              fontSize: 25, 
+              fontWeight: FontWeight.w500,
+              color: Color.fromARGB(226, 253, 253, 253)),
+          )
+          
+        ],
+      ),
     ),
   );
 }
