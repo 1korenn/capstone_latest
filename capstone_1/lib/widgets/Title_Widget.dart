@@ -17,7 +17,7 @@ Widget build(BuildContext context) {
         ),
       ),
       Text(
-        'Monday, 22 June 2021',
+        'Monday, 69 march 69',
         style: TextStyle(
           color: Color.fromARGB(255, 233, 219, 219),
           fontSize: 14.0,
